@@ -11,3 +11,5 @@ The control described here is a subclass of the standard DesktopSearchField cont
 The Pressed event is triggered when the user hasn't typed for a certain amount of time (400 ms by default) or if they press the Enter key.
 
 The delay is configurable using the ActionDelay property.
+
+The class is standalone.
