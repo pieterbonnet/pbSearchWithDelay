@@ -1,5 +1,5 @@
 # pbSearchWithDelay
-Subclass of DesktopSearchField with delay
+Subclass of DesktopSearchField with delay for the Pressed events.
 
 ### Features
 Sometimes, it's necessary to avoid real-time searches when a user types a search.
