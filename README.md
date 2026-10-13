@@ -6,7 +6,7 @@ A search field that delays the `Pressed` event until the user has **stopped typi
 
 | | |
 |---|---|
-| **Super class** | [DesktopSearchField](https://documentation.xojo.com/api/desktop/desktopsearchfield.html) |
+| **Super class** | [DesktopSearchField](https://documentation.xojo.com/api/user_interface/desktop/desktopsearchfield.html#desktopsearchfield)|
 | **Interfaces** | [ActionNotificationReceiver](https://documentation.xojo.com/api/language/actionnotificationreceiver.html#actionnotificationreceiver)|
 | **Platforms** | Desktop |
 
