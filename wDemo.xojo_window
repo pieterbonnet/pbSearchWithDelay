@@ -31,7 +31,6 @@ Begin DesktopWindow wDemo
       AllowAutoDeactivate=   True
       AllowFocusRing  =   False
       AllowRecentItems=   False
-      AllowTabStop    =   True
       ClearMenuItemValue=   ""
       Enabled         =   True
       Height          =   22
@@ -50,6 +49,7 @@ Begin DesktopWindow wDemo
       Scope           =   2
       TabIndex        =   0
       TabPanelIndex   =   0
+      TabStop         =   True
       Text            =   ""
       Tooltip         =   ""
       Top             =   30
@@ -208,6 +208,7 @@ Begin DesktopWindow wDemo
       Underline       =   False
       Visible         =   True
       Width           =   336
+      _ScrollOffset   =   0
       _ScrollWidth    =   -1
    End
    Begin DesktopLabel Label2
@@ -313,7 +314,7 @@ End
 
 #tag Events txtSearchState
 	#tag Event
-		Sub Pressed()
+		Sub Pressed(FiredByTimer as Boolean)
 		  lstStates.RemoveAllRows
 		  
 		  If txtSearchState.Text.Trim = "" Then 

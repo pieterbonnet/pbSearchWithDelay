@@ -27,7 +27,7 @@ Implements actionNotificationReceiver
 		    Me.Minuteur.RunMode = Timer.RunModes.Off
 		  End
 		  
-		  RaiseEvent Pressed
+		  RaiseEvent Pressed(false)
 		  
 		End Sub
 	#tag EndEvent
@@ -48,7 +48,7 @@ Implements actionNotificationReceiver
 		  // Part of the actionNotificationReceiver interface.
 		  
 		  Me.Minuteur.RunMode = Timer.RunModes.Off
-		  RaiseEvent Pressed
+		  RaiseEvent Pressed(true)
 		End Sub
 	#tag EndMethod
 
@@ -62,7 +62,7 @@ Implements actionNotificationReceiver
 	#tag EndHook
 
 	#tag Hook, Flags = &h0
-		Event Pressed()
+		Event Pressed(FiredByTimer as Boolean)
 	#tag EndHook
 
 	#tag Hook, Flags = &h0
